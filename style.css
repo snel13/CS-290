@@ -1,0 +1,113 @@
+table caption{
+    text-align:center;
+}
+#header{
+    background-color: #ffffff;
+}
+col{
+    font-style: italic align:center;
+    color:red;
+}
+#firstCol{
+    text-align:center;
+}
+#secondCol{
+    color:red;
+}
+tr:nth-child(even){
+    background-color: #CCFFFF;
+}
+tr:nth-child(odd){
+    background-color:#71C671;
+}
+table{
+    border-color:black;
+    border-width:1px;
+    border-style:solid;
+}
+th{
+    border-color:black;
+    border-width:1px;
+    border-style:solid;
+    padding:0px;
+}
+td{
+    border-color:black;
+    border-width:1px;
+    border-style:solid;
+    padding:0px;
+}
+#footer1{
+    background-color:#ffffff;
+}
+#footer2{
+    background-color:#ffffff;
+}
+#orderedList{
+    padding:0px 0px 20px 20px;
+    float:left;
+    margin-bottom:0px;
+}
+
+#seperator{
+    clear:both;
+    float:left;
+    background-color:pink;
+    width:75%;
+}
+
+#Inner-content{
+    width:75%;
+    margin: 0 auto;
+    background-color: #CCFFFF;
+    text-align:center;
+}
+#form1{
+    clear:both;
+}
+
+#fieldBorder{
+    border-color:black;
+    border-style: solid;
+    border-width:1px;
+}
+
+#textHere{
+    border-color:black;
+    border-width:1px;
+    border-style:solid;
+    padding:10px 10px 10px 10px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+#numberHere{
+    border-color:black;
+    border-width:1px;
+    border-style:solid;
+    padding:10px 10px 10px 10px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+#passwordHere{
+    border-color:black;
+    border-width:1px;
+    border-style:solid;
+    padding:10px 10px 10px 10px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+#candySelector{
+
+    margin:5px 0px 10px 0px;
+}
+#candySelection{
+    border-color:black;
+    border-width:1px;
+    border-style:solid;
+    padding-left:10px;
+}
+#candyButton{
+    margin: 10px 0px 0px 0px;
+}
+
+

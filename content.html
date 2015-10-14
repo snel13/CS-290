@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>Assignment 1		CS 290		Author: Sam Nelson</title>
+</head>
+	<body>
+		<table>
+			<caption>Who wins? Cell content indicates the status of the row entry</caption>
+			<tr id="header">
+				<th></th>
+				<th>Godzilla</th>
+				<th>Batman</th>
+				<th>Shaq</th>
+				<th>Aaron Carter</th>
+				<th>Abe Lincoln</th>
+			</tr>
+			<tr>
+				<td id="firstCol"><em>Godzilla</em></td>
+				<td id="secondCol">N/A</td>
+				<td >Minor Loss</td>
+				<td>Loss</td>
+				<td>Unknown</td>
+				<td>Unknown</td>
+			</tr>
+			<tr>
+				<td id="firstCol"><em>Batman</em></td>
+				<td id="secondCol">Minor Win</td>
+				<td>N/A</td>
+				<td>Total Victory</td>
+				<td>Total Victory</td>
+				<td>Total Loss</td>
+			</tr>
+			<tr>
+				<td id="firstCol"><em>Shaq</em></td>
+				<td id="secondCol">Win</td>
+				<td>Total Loss</td>
+				<td>N/A</td>
+				<td>Minor Loss</td>
+				<td>Unknown</td>
+			</tr>
+			<tr>
+				<td id="firstCol"><em>Aaron Carter</em></td>
+				<td id="secondCol">Unknown</td>
+				<td>Total Loss</td>
+				<td>Minor Win</td>
+				<td>N/A</td>
+				<td>Unknown</td>
+			</tr>
+			<tr> 
+				<td id="firstCol"><em>Abe Lincoln</em></td>
+				<td id="secondCol">Unknown</td>
+				<td>Total Victory</td>
+				<td>Unknown</td>
+				<td>Unknown</td>
+				<td>N/A</td>
+			</tr>
+			<td id="footer1" colspan="2">Footer 1</td>
+			<td id="footer2" colspan="4">Footer 2</td>
+		</table>
+
+		<ol id="orderedList">
+			<li>Best Language</li>
+				<ul>
+					<li>Python</li>
+				</ul>
+			<li>Wackyist Language</li>
+				<ul>
+					<li>Haskell</li>
+				</ul>
+			<li>SEGFAULTiest language</li>
+				<ul>
+					<li>C</li>
+				</ul>
+		 </ol>
+		<div id="seperator">
+				<div id="Inner-content"><p>Here is some context.</p></div>
+		</div>       
+		 
+		<form id="form1" action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="get">
+			<fieldset id="fieldBorder">
+				<legend>GET Some Get Data</legend>
+					<div id="textHere">
+						Text here:
+						<input type="text" name="text_here">
+						<br>
+					</div>
+					<div id="numberHere">
+						Number here:
+						<input type="number" name="numerical_input">
+						<br>
+					</div>
+					<div id="passwordHere">
+						Password here:
+						<input type="password" name="password_input">
+						<br>
+					</div>
+					<div id="candySelection">
+						<p id="candySelector">Select between:</p>
+						<input type="radio" name="candy" value="Snickers" checked>Snickers<br>
+						<input type="radio" name="candy" value="Skittles">Skittles<br>
+						<input type="radio" name="candy" value="Mentos">Mentos<br>
+						<input type="submit" value="Submit">
+					</div>
+				</fieldset>
+		</form>
+							 
+		<form id="form2" action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="post">
+			 <fieldset id="fieldBorder">
+				<legend>POST Some Get Data</legend>
+					<div id="textHere">
+						 Text here:
+						 <input type="text" name="text_here">
+						 <br>
+					</div>
+					<div id="numberHere">
+						 Number here:
+						 <input type="number" name="numerical_input">
+						 <br>
+					</div>
+					<div id="passwordHere">
+						 Password here:
+						<input type="password" name="password_input">
+						<br>
+					</div>
+					<div id="candySelection">
+						<p id="candySelector">Select between:</p>
+						<input type="radio" name="candy" value="Snickers" checked>Snickers<br>
+						<input type="radio" name="candy" value="Skittles">Skittles<br>
+						<input type="radio" name="candy" value="Mentos">Mentos<br>
+						<input type="submit" value="Submit">
+					</div>
+			</fieldset>
+		</form>
+	</body>
+</html>
